@@ -18,18 +18,18 @@ func main() {
 	fmt.Printf("The isTrue variable is of type: %T \n", isTrue)
 
 	// default values for string
-    var emptyInt int
-    fmt.Println(emptyInt)
+	var emptyInt int
+	fmt.Println(emptyInt)
 
-    // Implicit type
-    var variableWithoutType = 34
-    fmt.Println(variableWithoutType)
+	// Implicit type
+	var variableWithoutType = 34
+	fmt.Println(variableWithoutType)
 
-    // no var style -> only avaibale in main function
-    variableWithoutVarKey := 4307
-    fmt.Println(variableWithoutVarKey)
+	// no var style -> only avaibale in main function
+	variableWithoutVarKey := 4307
+	fmt.Println(variableWithoutVarKey)
 
-    // Calling public variable
-    fmt.Println(UserId)
-    fmt.Printf("UserId is type of: %T \n ", UserId)
+	// Calling public variable
+	fmt.Println(UserId)
+	fmt.Printf("UserId is type of: %T \n ", UserId)
 }
