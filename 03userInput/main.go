@@ -16,3 +16,10 @@ func main () {
 	fmt.Print("You entered ", input)
 	fmt.Printf("input is of type: %T \n", input)
 }
+
+/*
+New things learnt
+1. bufio
+2. os -> so.stdin
+3. , ok syntax
+*/
